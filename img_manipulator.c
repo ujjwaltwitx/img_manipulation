@@ -30,7 +30,6 @@ int main(int argc, char* argv[]){
             executeOperation(argv[i]);
         }
         char* generatedName = generateRandomName(argv[1]);
-        // printf("%s", generatedName);
         MagickWriteImage(mw, generatedName);
     }
     
